@@ -1,5 +1,3 @@
-# Final Project: Club Hub
-
 ## Overview
 Club Hub is a centralized directory application designed to connect students at the University of Hawaiʻi at Mānoa with campus organizations, clubs, and extracurricular activities.
 
