@@ -7,7 +7,7 @@ Club Hub is a centralized directory application designed to connect students at 
 
 ## Project Links
 * **[GitHub Organization & Repositories](https://github.com/uhm-club-hub)** 
-* **[Team Contract]【需要你替换为你们团队契约的链接】** 
+* **[Team Contract] ** 
 
 ## Deployment
 Our application is actively being developed and is deployed via Vercel.
@@ -16,7 +16,7 @@ Our application is actively being developed and is deployed via Vercel.
 ## Project Management
 We use Issue Driven Project Management (IDPM) to track our progress.
 * **[Milestone 1 (M1) Project Board](https://github.com/orgs/uhm-club-hub/projects/1/views/1)**: Displays the issues completed for this milestone. (Note: All M1 issues have estimates/actuals, and nothing remains in Backlog or In Progress).
-* **[Milestone 2 (M2) Project Board]【需要你替换为M2看板链接】**: Outlines the issues and goals we plan to address in the next phase of development.
+* **[Milestone 2 (M2) Project Board]【替换为M2看板链接】**: Outlines the issues and goals we plan to address in the next phase of development.
 
 ---
 
@@ -39,23 +39,23 @@ Club Hub solves this by providing a unified, interactive directory tailored spec
 ### Landing Page
 A clean, welcoming entry point explaining the purpose of Club Hub with a prompt to log in via a UHM account. 
 <!-- 请确保放入实际网页的截图，M1要求有Landing page并且包含登录入口 -->
-![Landing Page]【需要你替换为实际图片路径，例如 (./images/landing.png)】
+![Landing Page]【需替换为实际图片路径，例如 (./images/landing.png)】
 
 ### Directory / Search Page
 The core feature page displaying a grid of club cards. Includes a sidebar with dropdown menus to filter by categories.
-![Directory Page]【需要你替换为实际图片路径，例如 (./images/directory.png)】
+![Directory Page]【需替换为实际图片路径，例如 (./images/directory.png)】
 
 ### User Profile Page
 A dashboard where students can set their personal interest tags and see a list of bookmarked or recommended clubs.
-![User Profile]【需要你替换为实际图片路径，例如 (./images/profile.png)】
+![User Profile]【需替换为实际图片路径，例如 (./images/profile.png)】
 
 ### Club Admin Dashboard
 A form-based page where designated club officers can edit their club’s public profile and update announcements.
-![Admin Dashboard]【需要你替换为实际图片路径，例如 (./images/admin.png)】
+![Admin Dashboard]【需替换为实际图片路径，例如 (./images/admin.png)】
 
 ### System Admin Page (or other 4th page)
 A dashboard for site admins to review newly registered clubs, approve them for public display, and manage entries.
-![System Admin]【需要你替换为实际图片路径，例如 (./images/sys-admin.png)】
+![System Admin]【需替换为实际图片路径，例如 (./images/sys-admin.png)】
 
 ---
 
