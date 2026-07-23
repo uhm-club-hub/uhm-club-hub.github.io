@@ -38,24 +38,24 @@ Club Hub solves this by providing a unified, interactive directory tailored spec
 
 ### Landing Page
 A clean, welcoming entry point explaining the purpose of Club Hub with a prompt to log in via a UHM account. 
-<!-- 请确保放入实际网页的截图，M1要求有Landing page并且包含登录入口 -->
-![Landing Page]【需替换为实际图片路径，例如 (./images/landing.png)】
+<!-- 确保放入实际网页的截图，M1要求有Landing page并且包含登录入口 -->
+![Landing Page](./images/landing.png)
 
 ### Directory / Search Page
 The core feature page displaying a grid of club cards. Includes a sidebar with dropdown menus to filter by categories.
-![Directory Page]【需替换为实际图片路径，例如 (./images/directory.png)】
+![Directory Page](./images/directory.png)
 
 ### User Profile Page
 A dashboard where students can set their personal interest tags and see a list of bookmarked or recommended clubs.
-![User Profile]【需替换为实际图片路径，例如 (./images/profile.png)】
+![User Profile](./images/profile.png)
 
 ### Club Admin Dashboard
 A form-based page where designated club officers can edit their club’s public profile and update announcements.
-![Admin Dashboard]【需替换为实际图片路径，例如 (./images/admin.png)】
+![Admin Dashboard](./images/admin.png)
 
 ### System Admin Page (or other 4th page)
 A dashboard for site admins to review newly registered clubs, approve them for public display, and manage entries.
-![System Admin]【需替换为实际图片路径，例如 (./images/sys-admin.png)】
+![System Admin](./images/sys-admin.png)
 
 ---
 
