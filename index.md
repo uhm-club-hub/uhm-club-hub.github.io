@@ -2,12 +2,25 @@
 title: Final Project - Club Hub
 ---
 
+## Table of contents
+
+* [Overview](#overview)
+* [Project Links](#project-links)
+* [Deployment](#deployment)
+* [Project Management](#project-management)
+* [The Problem](#the-problem)
+* [The Solution](#the-solution)
+* [User Guide](#user-guide)
+* [Use Cases](#use-cases)
+* [Technical Stack](#technical-stack)
+* [Team](#team)
+
 ## Overview
 Club Hub is a centralized directory application designed to connect students at the University of Hawaiʻi at Mānoa with campus organizations, clubs, and extracurricular activities.
 
 ## Project Links
 * **[GitHub Organization & Repositories](https://github.com/uhm-club-hub)** 
-* **[Team Contract] ** 
+* **[Team Contract](https://docs.google.com/document/d/1y0JX6MKeQL0HboowJPYuj7kNQpnwa3ZX2jyb8Xzgsqs/edit?usp=sharing)** 
 
 ## Deployment
 Our application is actively being developed and is deployed via Vercel.
@@ -32,6 +45,8 @@ Club Hub solves this by providing a unified, interactive directory tailored spec
 *   **Profile Management:** Club administrators can easily log in to update their organization’s description, meeting times, and contact information, ensuring the directory remains current without relying on a central webmaster.
 
 ---
+
+## User Guide
 
 ## Current State & Screenshots
 *(Note: As part of Milestone 1, the following screenshots reflect the current state of our deployed application.)*
@@ -70,3 +85,6 @@ Building upon modern web development standards, the project utilizes:
 *   **Styling:** Bootstrap 5 for rapid UI prototyping and consistent mobile-friendly layout.
 *   **Backend/Database:** PostgreSQL to securely manage user profiles, club data, and the relational mapping of interest tags.
 *   **Language:** Strict TypeScript to ensure type safety and minimize runtime errors throughout the application.
+
+## Team
+Club Hub is designed, implemented, and maintained by [Peili Zhu](https://github.com/zhupeili-uh), [Erika Penullar](https://github.com/E-Penullar), and [Robyn Morita](https://github.com/rmorita2).
