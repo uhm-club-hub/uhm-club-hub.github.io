@@ -29,8 +29,8 @@ Our application is actively being developed and is deployed via Vercel.
 ## Project Management
 We use Issue Driven Project Management (IDPM) to track our progress.
 * **[Milestone 1 (M1) Project Board](https://github.com/orgs/uhm-club-hub/projects/1/views/1)**: Displays the issues completed for this milestone. (Note: All M1 issues have estimates/actuals, and nothing remains in Backlog or In Progress).
-* **[Milestone 2 (M2) Project Board](https://github.com/orgs/uhm-club-hub/projects/2/views/1)**: Outlines the issues and goals we plan to address in the next phase of development.
-
+* **[Milestone 2 (M2) Project Board](https://github.com/orgs/uhm-club-hub/projects/2/views/1)**: Displays the issues completed for this milestone. (Note: All M2 issues have estimates/actuals, and nothing remains in Backlog or In Progress).
+* **[Milestone 3 (M3) Project Board](https://github.com/orgs/uhm-club-hub/projects/4/views/1)**: Outlines the issues and goals we plan to address in the final phase of development, including real data integration and acceptance testing.
 ---
 
 ## The Problem
