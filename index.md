@@ -33,52 +33,8 @@ Our application is actively being developed and is deployed via Vercel.
 ## Project Management
 We use Issue Driven Project Management (IDPM) to track our progress.
 * **[Milestone 1 (M1) Project Board](https://github.com/orgs/uhm-club-hub/projects/1/views/1)**: Displays the issues completed for this milestone. (Note: All M1 issues have estimates/actuals, and nothing remains in Backlog or In Progress).
-* **[Milestone 2 (M2) Project Board](https://github.com/orgs/uhm-club-hub/projects/2/views/1)**: Displays the issues completed for this milestone. (Note: All M2 issues have estimates/actuals, and nothing remains in Backlog or In Progress).
-* **[Milestone 3 (M3) Project Board](https://github.com/orgs/uhm-club-hub/projects/4/views/1)**: Outlines the issues and goals we plan to address in the final phase of development, including real data integration and acceptance testing.
-
-## Developer Guide
-
-1. Install [PostgreSQL](https://www.postgresql.org/download/)
- 
-2. Clone the repo on Github. Open in a code editor of your choice, like VSCode.
-  
-3. Install dependencies:
-```
-npm install
-```
- 
-4. Create your `.env` file and update `DATABASE_URL`.
-```
-# Edit to match your system: username, password, port-number
-DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@localhost:5432/clubhub?schema=public"
-
-AUTH_SECRET=<YOUR_AUTH_SECRET_HERE>
-
-AUTH_URL=http://localhost:3000
-```
-  
-5. Run migrations and generate the Prisma client:
-```
-npx prisma migrate dev
-```
-```
-npx prisma generate
-```
-5.5. Run this command in case you need to reset your database:
-```
-npx prisma migrate reset
-```
- 
-6. Seed the database:
-```
-npx prisma db seed
-```
- 
-7. Start the dev server, and the application should run at 'http://localhost:3000':
-```
-npm run dev
-```
-
+* **[Milestone 2 (M2) Project Board](https://github.com/orgs/uhm-club-hub/projects/2/views/1)**: Outlines the issues and goals we plan to address in the next phase of development.
+* **[Milestone 3 (M3) Project Board](https://github.com/orgs/uhm-club-hub/projects/4)**: Tracks the issues, assignments, and development progress planned for the third phase of the project.
 ---
 
 ## The Problem and Solution
