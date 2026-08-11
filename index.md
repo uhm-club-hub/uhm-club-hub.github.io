@@ -85,8 +85,7 @@ npx prisma migrate reset
 npx prisma db seed
 ```
 
-
-7. Start the dev server, and the application should run at 'http://localhost:3000':
+7.Start the dev server, and the application should run at 'http://localhost:3000':
 
 ```
 npm run dev
