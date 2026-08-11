@@ -42,15 +42,15 @@ We use Issue Driven Project Management (IDPM) to track our progress.
 ## Developer Guide
 
 1. Install [PostgreSQL](https://www.postgresql.org/download/)
- 
+
 2. Clone the repo on Github. Open in a code editor of your choice, like VSCode.
-  
+
 3. Install dependencies:
 ```
 npm install
 ```
- 
-4. Create your `.env` file and update `DATABASE_URL .
+
+4. Create your '.env' file and update 'DATABASE_URL':
 ```
 # Edit to match your system: username, password, port-number
 DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@localhost:5432/clubhub?schema=public"
@@ -59,25 +59,24 @@ AUTH_SECRET=<YOUR_AUTH_SECRET_HERE>
 
 AUTH_URL=http://localhost:3000
 ```
-  
+
 5. Run migrations and generate the Prisma client:
 ```
 npx prisma migrate dev
 ```
-
 ```
 npx prisma generate
 ```
-5.5. Run this command in case you need to reset your database:
+*Run this command in case you need to reset your database:*
 ```
 npx prisma migrate reset
 ```
- 
+
 6. Seed the database:
 ```
 npx prisma db seed
 ```
- 
+
 7. Start the dev server, and the application should run at 'http://localhost:3000':
 ```
 npm run dev
