@@ -47,49 +47,49 @@ We use Issue Driven Project Management (IDPM) to track our progress.
 
 3. Install dependencies:
 
-```
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 4. Create your '.env' file and update 'DATABASE_URL':
 
-```
-DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@localhost:5432/clubhub?schema=public"
+    ```env
+    DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@localhost:5432/clubhub?schema=public"
 
-AUTH_SECRET=<YOUR_AUTH_SECRET_HERE>
+    AUTH_SECRET=<YOUR_AUTH_SECRET_HERE>
 
-AUTH_URL=http://localhost:3000
-```
+    AUTH_URL=http://localhost:3000
+    ```
 
-*Edit to match your system: username, password, port-number*
+    *Edit to match your system: username, password, port-number*
 
 5. Run migrations and generate the Prisma client:
 
-```
-npx prisma migrate dev
-```
+    ```bash
+    npx prisma migrate dev
+    ```
 
-```
-npx prisma generate
-```
+    ```bash
+    npx prisma generate
+    ```
 
-*Run this command in case you need to reset your database:*
+    *Run this command in case you need to reset your database:*
 
-```
-npx prisma migrate reset
-```
+    ```bash
+    npx prisma migrate reset
+    ```
 
 6. Seed the database:
 
-```
-npx prisma db seed
-```
+    ```bash
+    npx prisma db seed
+    ```
 
 7. Start the dev server, and the application should run at 'http://localhost:3000':
 
-```
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 ---
 
