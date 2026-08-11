@@ -15,6 +15,7 @@ title: Final Project - Club Hub
 * [Use Cases](#use-cases)
 * [Technical Stack](#technical-stack)
 * [Team](#team)
+* [Continuous Integration](#continuous-integration)
 
 ## Overview
 Club Hub is a centralized directory application designed to connect students at the University of Hawaiʻi at Mānoa with campus organizations, clubs, and extracurricular activities.
@@ -207,3 +208,10 @@ Building upon modern web development standards, the project utilizes:
 
 ## Team
 Club Hub is designed, implemented, and maintained by [Peili Zhu](https://github.com/zhupeili-uh), [Erika Penullar](https://github.com/E-Penullar), and [Robyn Morita](https://github.com/rmorita2).
+
+## Continuous Integration
+For the Nextjs Application:
+[![M2 Continuous Integration](https://github.com/uhm-club-hub/club-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/uhm-club-hub/club-hub/actions/workflows/ci.yml)
+
+For the GitHub Io Page / Project Homepage:
+[![pages-build-deployment](https://github.com/uhm-club-hub/uhm-club-hub.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/uhm-club-hub/uhm-club-hub.github.io/actions/workflows/pages/pages-build-deployment)
