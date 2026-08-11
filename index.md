@@ -50,7 +50,7 @@ We use Issue Driven Project Management (IDPM) to track our progress.
 npm install
 ```
  
-4. Create your `.env` file and update `DATABASE_URL`.
+4. Create your `.env` file and update `DATABASE_URL .
 ```
 # Edit to match your system: username, password, port-number
 DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@localhost:5432/clubhub?schema=public"
@@ -64,6 +64,7 @@ AUTH_URL=http://localhost:3000
 ```
 npx prisma migrate dev
 ```
+
 ```
 npx prisma generate
 ```
