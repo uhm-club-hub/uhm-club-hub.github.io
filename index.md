@@ -52,13 +52,13 @@ npm install
 
 4. Create your '.env' file and update 'DATABASE_URL':
 ```
-# Edit to match your system: username, password, port-number
 DATABASE_URL="postgresql://<USERNAME>:<PASSWORD>@localhost:5432/clubhub?schema=public"
 
 AUTH_SECRET=<YOUR_AUTH_SECRET_HERE>
 
 AUTH_URL=http://localhost:3000
 ```
+*Edit to match your system: username, password, port-number*
 
 5. Run migrations and generate the Prisma client:
 ```
